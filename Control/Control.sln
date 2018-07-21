@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Socket_Client", "Socket_Client\Socket_Client.vcxproj", "{0F77CD20-C45C-4FFD-A9D7-534DAF4255CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F77CD20-C45C-4FFD-A9D7-534DAF4255CB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0F77CD20-C45C-4FFD-A9D7-534DAF4255CB}.Debug|Win32.Build.0 = Debug|Win32
+		{0F77CD20-C45C-4FFD-A9D7-534DAF4255CB}.Release|Win32.ActiveCfg = Release|Win32
+		{0F77CD20-C45C-4FFD-A9D7-534DAF4255CB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

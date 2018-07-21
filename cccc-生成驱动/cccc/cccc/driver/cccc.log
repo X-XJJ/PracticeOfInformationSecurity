@@ -1,0 +1,21 @@
+﻿生成启动时间为 2016-7-26 13:34:50。
+项目“C:\Documents and Settings\Mike\My Documents\Visual Studio 2010\Projects\cccc\cccc\cccc.vcxproj”在节点 2 上(rebuild 个目标)。
+_PrepareForClean:
+  正在删除文件“driver\cccc.lastbuildstate”。
+InitializeBuildStatus:
+  正在创建“driver\cccc.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\WinDDK\7600.16385.1\inc\ddk /IC:\WinDDK\7600.16385.1\inc\api /IC:\WinDDK\7600.16385.1\inc\crt /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _CONSOLE /D _x86_ /D _DEBUG /D DBG=1 /D _X86_ /D DBG /Gm /MDd /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"driver\\" /Fd"driver\vc100.pdb" /Gz /TP /analyze- /errorReport:prompt cccc.cpp
+  cccc.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\Mike\My Documents\Visual Studio 2010\Projects\cccc\driver\cccc.sys" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\WinDDK\7600.16385.1\lib\wxp\i386 ntoskrnl.lib hal.lib int64.lib ntstrsafe.lib exsup.lib ksecdd.lib ntdll.lib shlwapi.lib NtosKrnl.lib ntoskrnl.lib wdm.lib wdmsec.lib wmilib.lib ndis.lib Hal.lib MSVCRT.LIB LIBCMT.LIB kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB /MANIFEST:NO /DEBUG /PDB:"C:\Documents and Settings\Mike\My Documents\Visual Studio 2010\Projects\cccc\driver\cccc.pdb" /SUBSYSTEM:NATIVE /Driver /TLBID:1 /ENTRY:"DriverEntry" /BASE:"0x10000" /IMPLIB:"C:\Documents and Settings\Mike\My Documents\Visual Studio 2010\Projects\cccc\driver\cccc.lib" /MACHINE:X86 driver\cccc.obj
+LINK : warning LNK4078: 找到多个“INIT”节，它们具有不同的特性(E2000020)
+  cccc.vcxproj -> C:\Documents and Settings\Mike\My Documents\Visual Studio 2010\Projects\cccc\driver\cccc.sys
+FinalizeBuildStatus:
+  正在删除文件“driver\cccc.unsuccessfulbuild”。
+  正在对“driver\cccc.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Documents and Settings\Mike\My Documents\Visual Studio 2010\Projects\cccc\cccc\cccc.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.21
